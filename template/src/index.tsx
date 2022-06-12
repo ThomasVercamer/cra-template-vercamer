@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import {ThemeProvider} from "styled-components";
+import {appTheme} from "./services/theme/app.theme";
 import App from "./app.component";
 import reportWebVitals from "./services/react/reportWebVitals";
 
-const AppElement = document.getElementById("App") as HTMLElement;
+const AppElement = document.getElementById("app") as HTMLElement;
 const AppRoot = ReactDOM.createRoot(AppElement);
 
 AppRoot.render(
     <React.StrictMode>
-        <App />
+        <ThemeProvider theme={appTheme}>
+            <App />
+        </ThemeProvider>
     </React.StrictMode>
 );
 

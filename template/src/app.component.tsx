@@ -1,7 +1,12 @@
+import {GlobalReset, AppContainer} from "./app.styles";
+
 const App = () => (
-    <div>
-        <p>App</p>
-    </div>
+    <>
+        <GlobalReset/>
+        <AppContainer>
+            <p>App</p>
+        </AppContainer>
+    </>
 );
 
 export default App;
