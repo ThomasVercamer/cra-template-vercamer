@@ -6,7 +6,7 @@ export const routes: IRoute[] = [
         id: uuidv4(),
         element: <p>Hello World</p>,
         label: "Home",
-        path: "/", // Please note that due to react-router-dom v6, this route will always be selected!
+        path: "/",
         order: 1,
         private: false,
         navigation: true,
