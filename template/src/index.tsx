@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import {Provider} from "react-redux";
+import {store} from "./services/state/store";
 import {ThemeProvider} from "styled-components";
 import {appTheme} from "./services/theme/app.theme";
 import App from "./app.component";
@@ -10,9 +12,11 @@ const AppRoot = ReactDOM.createRoot(AppElement);
 
 AppRoot.render(
     <React.StrictMode>
-        <ThemeProvider theme={appTheme}>
-            <App />
-        </ThemeProvider>
+        <Provider store={store}>
+            <ThemeProvider theme={appTheme}>
+                <App/>
+            </ThemeProvider>
+        </Provider>
     </React.StrictMode>
 );
 
