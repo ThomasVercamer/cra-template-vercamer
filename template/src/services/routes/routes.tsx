@@ -8,7 +8,7 @@ export const routes: IRoute[] = [
         label: "Home",
         path: "/",
         order: 1,
-        private: false,
+        protected: false,
         navigation: true,
         published: true
     },
@@ -18,7 +18,7 @@ export const routes: IRoute[] = [
         label: "Test",
         path: "/test",
         order: 2,
-        private: false,
+        protected: false,
         navigation: true,
         published: true
     }
