@@ -7,6 +7,12 @@ export const PageContainer = styled.div`
     overflow: hidden;
     text-align: center;
     margin: 10vw auto;
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
 `;
 
 export const ErrorContainer = styled.div`

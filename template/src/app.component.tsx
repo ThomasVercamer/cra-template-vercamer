@@ -7,7 +7,6 @@ const App = () => (
     <>
         <GlobalReset/>
         <AppContainer>
-            <p>App</p>
             <Routes>
                 {routes
                     .filter(route => route.published)
