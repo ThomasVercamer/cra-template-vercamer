@@ -25,7 +25,7 @@ There are two options to use this template: local or online.
 **ONLINE** --> _Please note that this is not yet working!_
 
 1. Go to the folder in which you want to start your new project.
-2. Open up your terminal and enter the following command:<br/> ```npx create-react-app NAME-OF-YOUR-APP --template:cra-template-vercamer```
+2. Open up your terminal and enter the following command:<br/> ```npx create-react-app NAME-OF-YOUR-APP --template cra-template-vercamer```
 3. You're done! 👏
 
 ### In this template
