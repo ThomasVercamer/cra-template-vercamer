@@ -30,7 +30,28 @@ There are two options to use this template: local or online.
 
 ### In this template
 
-Coming soon ...
+This template (will) contains tons of stuff! However, it might become a little harder to keep track of whatever is going on.
+But no worries, here is a short list of what you can expect:
+
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+This should kind of explain itself, no?
+
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+We are working with typescript. Why? Because today it is the industry standard, it helps you detect coding errors and the code completion is awesome 😎.
+Other than that, I just really wanted to learn TS together with React, and it's my project!
+
+[![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
+I just like styled components. It gives me a very flexible way of creating themes and dynamically assigning themes to
+my elements. Is it better than other systems? Maybe! Feel free to swap it for anything you want.
+
+[![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+It's no easy discussion to decide between React hooks and Redux. Mostly because Redux is regarded as overkill (a lot of the times).
+Personally, I just like the way it works. And once it's been set up, it's actually very easy to use. Combined with the **option** to extend
+it thoroughly, and this became a no-brainer to me! Oh by the way: I've also used [Redux Toolkit](https://redux-toolkit.js.org/) --> it's awesome!
+
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/docs/en/v6)
+No web application without navigation. The most famous and easy to use library is React Router.
+I saw no reason to try anything else to be honest.
 
 ### Roadmap
 
