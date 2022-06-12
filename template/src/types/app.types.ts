@@ -1,4 +1,5 @@
 import {store} from "../services/state/store";
+import {ReactNode} from "react";
 
 /* -----------------------------------------------------------------------------------
  * GENERAL
@@ -20,3 +21,16 @@ export interface IUser {
 // ---------- State types
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
+
+// ---------- Route types
+export interface IRoute {
+    id: string;
+    element: ReactNode;
+    path: string;
+    label: string;
+    icon?: ReactNode;
+    order?: number; // A lower number means a higher priority, default = 100
+    private: boolean; // Should this route be protected by some authentication?
+    navigation: boolean; // Should the label (and icon) appear in the navigation?
+    published: boolean; // When working with "modules" you can enable them here.
+}

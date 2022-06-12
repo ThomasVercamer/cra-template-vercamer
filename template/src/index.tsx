@@ -4,6 +4,7 @@ import {Provider} from "react-redux";
 import {store} from "./services/state/store";
 import {ThemeProvider} from "styled-components";
 import {appTheme} from "./services/theme/app.theme";
+import {BrowserRouter as Router} from "react-router-dom";
 import App from "./app.component";
 import reportWebVitals from "./services/react/reportWebVitals";
 
@@ -14,7 +15,9 @@ AppRoot.render(
     <React.StrictMode>
         <Provider store={store}>
             <ThemeProvider theme={appTheme}>
-                <App/>
+                <Router>
+                    <App/>
+                </Router>
             </ThemeProvider>
         </Provider>
     </React.StrictMode>
