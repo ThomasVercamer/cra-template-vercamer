@@ -14,7 +14,7 @@ const SignInPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        if (!!auth.name) navigate("/test"); // This should become an actual route
+        if (!!auth.currentUser) navigate("/test"); // This should become an actual route
     }, [auth, navigate]);
 
     const [formState, setFormState] = useState({

@@ -1,7 +1,19 @@
 import {v4 as uuidv4} from 'uuid';
 import {IRoute} from "../../types/app.types";
 
+// ---------- Pages
+import SignInPage from "../../components/auth/sign-in.page";
+
 export const routes: IRoute[] = [
+    {
+        id: uuidv4(),
+        element: <SignInPage />,
+        label: "Sign in",
+        path: "/sign-in",
+        protected: false,
+        navigation: false,
+        published: true
+    },
     {
         id: uuidv4(),
         element: <p>Hello World</p>,
