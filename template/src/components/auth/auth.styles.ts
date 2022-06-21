@@ -22,3 +22,9 @@ export const ErrorContainer = styled.div`
     border: 2px dashed ${({theme}) => theme.colors.warning.main};
     margin-bottom: 1.5rem;
 `;
+
+export const DoubleColumn = styled.div`
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+`;
