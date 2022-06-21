@@ -6,7 +6,13 @@ interface IAuthState {
 }
 
 const initialState: IAuthState = {
-    currentUser: null
+    currentUser: {
+        id: "123456789azerty",
+        first_name: "Thomas",
+        last_name: "Vercamer",
+        email: "test@test.be",
+        last_sign_in: new Date().toString()
+    }
 };
 
 export const authSlice = createSlice({
