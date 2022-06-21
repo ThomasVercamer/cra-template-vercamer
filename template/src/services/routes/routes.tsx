@@ -1,5 +1,6 @@
 import {v4 as uuidv4} from 'uuid';
 import {IRoute} from "../../types/app.types";
+import BasePage from "../../components/shared/base-page/base-page.component";
 
 // ---------- Pages
 import HomePage from "../../components/auth/home.page";
@@ -47,7 +48,7 @@ export const routes: IRoute[] = [
     },
     {
         id: uuidv4(),
-        element: <p>Test</p>,
+        element: <BasePage><p>Test</p></BasePage>,
         label: "Test",
         path: "/test",
         order: 2,
